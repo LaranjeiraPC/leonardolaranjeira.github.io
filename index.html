@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Leonardo Laranjeira | Portfólio</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Leonardo Laranjeira</h1>
+    <p>Desenvolvedor de Software | Java | AWS | Microsserviços</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#experiencia">Experiência</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Sou desenvolvedor backend no Banco Inter, atuando no time de crédito empresarial. Tenho experiência sólida em aplicações de alta performance com Java, AWS, microsserviços e banco de dados relacionais e NoSQL.</p>
+  </section>
+
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <ul class="grid">
+      <li>Java</li>
+      <li>Spring Boot</li>
+      <li>Micronaut</li>
+      <li>AWS (S3, DynamoDB, SQS, SNS)</li>
+      <li>PostgreSQL</li>
+      <li>MongoDB</li>
+      <li>Docker</li>
+      <li>GitLab</li>
+      <li>Kafka</li>
+    </ul>
+  </section>
+
+  <section id="experiencia">
+    <h2>Experiência Profissional</h2>
+    <div class="job">
+      <h3>Desenvolvedor de Software – Banco Inter</h3>
+      <span>Nov 2021 – Atual</span>
+      <p>Desenvolvimento de microsserviços com AWS, APIs REST seguras, banco de dados e integrações entre squads.</p>
+    </div>
+    <div class="job">
+      <h3>Engenheiro de Software – Accenture (Projeto Vale)</h3>
+      <span>Set 2019 – Out 2021</span>
+      <p>Full Stack Java + Angular, integração com Azure, testes com JUnit e liderança temporária.</p>
+    </div>
+    <div class="job">
+      <h3>Desenvolvedor – Consenso / Copergás / Softwares Inteligentes</h3>
+      <span>2016 – 2019</span>
+      <p>Experiência em ERP, Android, Delphi, Spring, Hibernate e implantação de sistemas em empresas públicas.</p>
+    </div>
+  </section>
+
+  <section id="projetos">
+    <h2>Projetos</h2>
+    <p>Em breve listarei meus principais projetos. Enquanto isso, acesse meu <a href="https://github.com/leonardolaranjeira" target="_blank">GitHub</a>.</p>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Email: leonardo-laranjeira@hotmail.com</p>
+    <p><a href="https://www.linkedin.com/in/leonardo-laranjeira/" target="_blank">LinkedIn</a> | <a href="https://github.com/leonardolaranjeira" target="_blank">GitHub</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Leonardo Laranjeira</p>
+  </footer>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
